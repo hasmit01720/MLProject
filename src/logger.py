@@ -16,8 +16,5 @@ logging.basicConfig(
 )
 
 if __name__=="__main__":
-    try:
-        a=1/0
-    except:
-        raise CustomerException
-        logging.info("Logging has started")
+    logging.info("Logging has started")
+        
